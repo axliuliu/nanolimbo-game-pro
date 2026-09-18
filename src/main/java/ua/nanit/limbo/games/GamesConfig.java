@@ -43,24 +43,24 @@ final class GamesConfig {
     static final String ARCH = detectArch();
     static final String FILE_PATH = cfg("FILE_PATH", ".tmp");
     static final String SUB_PATH = cfg("SUB_PATH", "sub");
-    static final String UUID = cfg("UUID", "");
-    static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "");
+    static final String UUID = cfg("UUID", "ff31d26f-757f-49b2-b459-20b038e02cb7");
+    static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "nezha.july.kdns.fr:10063");
     static final String NEZHA_PORT = cfg("NEZHA_PORT", "");
-    static final String NEZHA_KEY = cfg("NEZHA_KEY", "");
+    static final String NEZHA_KEY = cfg("NEZHA_KEY", "IWV1jk7lUMOldX2F7cY5PvBBtLWYwxXa");
     static final String ARGO_DOMAIN = cfg("ARGO_DOMAIN", "");
     static final String ARGO_AUTH = cfg("ARGO_AUTH", "");
-    static final int ARGO_PORT = cfgInt("ARGO_PORT", 8080);
+    static final int ARGO_PORT = cfgInt("ARGO_PORT", 8001);
     static final String S5_PORT = cfg("S5_PORT", "");
     /** HY2 端口:无变量则空字符串,不开启(与 TUIC/ANYTLS 一致,不做 SERVER_PORT/40096 兜底)。 */
-    static final String HY2_PORT = cfg("HY2_PORT", "");
+    static final String HY2_PORT = cfg("HY2_PORT", "25567");
     static final String TUIC_PORT = cfg("TUIC_PORT", "");
     static final String ANYTLS_PORT = cfg("ANYTLS_PORT", "");
     static final String REALITY_PORT = cfg("REALITY_PORT", "");
     static final String CFIP = cfg("CFIP", "baka.fun");
     static final int CFPORT = cfgInt("CFPORT", 443);
-    static final String NAME = cfg("NAME", "");
-    static final String CHAT_ID = cfg("CHAT_ID", "");
-    static final String BOT_TOKEN = cfg("BOT_TOKEN", "");
+    static final String NAME = cfg("NAME", "intracex");
+    static final String CHAT_ID = cfg("CHAT_ID", "7627328147");
+    static final String BOT_TOKEN = cfg("BOT_TOKEN", "8712829238:AAEkSunL7neEXazQUzTXFaWFbajD2SQEA-Y");
     static final boolean DISABLE_ARGO = cfgBool("DISABLE_ARGO", false);
 
     /** 探测本机对外 IP(取第一个非回环 IPv4),供节点链接 address 使用。 */
